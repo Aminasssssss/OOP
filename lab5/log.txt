@@ -1,0 +1,4 @@
+5.3+ -> Missing operand
+5.3+a -> For input string: "a"
+8.0 % 2.0 -> Missing operator
+abc + 5 -> For input string: "abc"
