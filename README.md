@@ -1,6 +1,6 @@
-# Object-Oriented Programming — KBTU
+# Object-Oriented Programming — KBTU Spring 2026
 
-Course: Object-Oriented Programming
+Course: CSE212 Object-Oriented Programming and Design
 Language: Java
 University: Kazakh-British Technical University (KBTU)
 
@@ -8,7 +8,7 @@ University: Kazakh-British Technical University (KBTU)
 
 Fundamental concepts of object-oriented programming using Java.
 Covers core OOP principles: encapsulation, inheritance, polymorphism, and abstraction,
-along with practical application through laboratory work and project defences.
+along with practical application through laboratory work and a final project defence.
 
 ## Topics Covered
 
@@ -19,8 +19,9 @@ along with practical application through laboratory work and project defences.
 - Abstract classes
 - Exception handling
 - Collections framework
-- File I/O
-- Design patterns basics
+- File I/O and serialization
+- Design patterns: Singleton, Observer, Decorator, Factory
+- UML diagrams
 
 ## Repository Structure
 
@@ -33,14 +34,30 @@ OOP/
 ├── lab5/       # Collections and generics
 ├── defence1/   # Project defence 1
 ├── defence2/   # Project defence 2
-└── defence3/   # Final project defence
+└── defence3/   # Project defence 3
 ```
+
+## Final Project
+
+**KBTU University Management System** — console-based university information system in Java.
+
+- 8 user roles: Student, Graduate Student, Teacher, Manager, Admin, Dean, Tech Support, Researcher
+- 4 design patterns: Singleton, Observer, Decorator, Factory
+- SHA-256 password hashing
+- Data serialization and persistence
+- 3 language support: EN / RU / KZ
+- 12 enumerations, 4 custom exceptions
+- 96-page Javadoc documentation
+
+Repository: [kbtu-university-system](https://github.com/Aminasssssss/kbtu-university-system)
 
 ## Tech Stack
 
 - Java
 - Eclipse / IntelliJ IDEA
+- UML (class diagrams, use case diagrams)
 
 ## Author
 
 Zhumatayeva Amina — 2nd year Information Systems, KBTU
+Team Lead of the final project
